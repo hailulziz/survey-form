@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head lang='en'>
+    <meta charset='UTF-8'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+    <link rel="stylesheet" href="styles.css">
+    <title>survey-form.freecodecamp.rocks</title>
+  </head>
+  <body>
+    <h1 id='title'>When The Sun Goes Down Review</h1>
+    <p id='description'>Thankyou for taking the time to help us improve our content</p>
+    <form id='survey-form'>
+        
+        <label for='name' id='name-label'>Name <input id='name' type='text' placeholder='Enter your name' required/></label>
+        <label for='email' id='email-label'>Email <input id='email' type='email' placeholder='Enter your email' required/></label>
+        <label for='number' id='number-label'>Age <input type='number' id='number' min='13' max='120' placeholder='Age' required/></label>
+        <label for='dropdown' id='select-label'>What was your favorite story in the book? 
+          <select id='dropdown' required>
+            <option>Select an option</option>
+            <option>The Guilt</option>
+            <option>When the Sun Goes Down</option>
+            <option>Leaving</option>
+            <option>The War of the Ears</option>
+            <option>The Mirror</option>
+            <option>Diamond Dust</option>
+            <option>Arrested Development</option>
+            <option>Sandra Street</option>
+            <option>Twilight Trek</option>
+            <option>I Stand Here Ironing</option>
+            <option>The Retraction</option>
+            <option>The Bamboo Hut</option>
+            <option>Tuesday Siesta</option>
+            <option>Two Stories of a House</option>
+            <option>Law of the Grazing Fields</option>
+            <option>White Hands</option>
+          </select>
+        </label>
+
+      <p>Did the book meet your expectations? </p>
+      <label for='yes'><input name='expectations' id='yes' value='yes' type='radio'checked/> Yes it did
+      </label>
+      <label for='no'><input name='expectations' id='no' value='no' type='radio'/> No it didn't
+      </label>
+      <label for='maybe'><input name='expectations' id='maybe' value='maybe' type='radio'/> Was alright but could have been better
+      </label>
+      
+        <p>What were the best elements of the book according to you? </p>
+        <label for='wstyle'>
+          <input id='wstyle' value='writing style' type='checkbox'/> Writing style
+        </label>
+        <label for='storytelling'>
+          <input id='storytelling' value='storytelling' type='checkbox'/> Storytelling
+        </label>
+        <label for='intro'>
+          <input id='intro' value='introduction' type='checkbox'/> The Introduction
+        </label>
+        <label for='abstract'> Check 1
+          <input id='abstract' value='abstract' type='checkbox'/> The abstract
+        </label>
+        <label for='stories'>
+          <input id='stories' value='stories' type='checkbox'/> One or two specific stories
+        </label>
+        <label for='font'>
+          <input id='font' value='font and structure' type='checkbox'/> The book's font style and structure
+        </label>
+        <label for='cpage'>
+          <input id='cpage' value='coverpage' type='checkbox'/> Cover Page
+        </label>
+      
+        <label for='extrainfo'>Could you provide some ways in which you think the book could be improved<textarea id='extrainfo' type='textarea' rows='4' cols='40' placeholder='The book could be made better by...'></textarea></label>
+        
+        <button id='submit' type='submit'>Submit</button>
+    </form>
+  </body>
+</html>

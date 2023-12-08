@@ -1,0 +1,24 @@
+body{
+    color: #000000;
+  }
+  
+  #title{
+    text-align: center;
+    color: #ff3333;
+  }
+  
+  #description{
+    text-align: center;
+    color: #000000;
+  }
+  
+  #name-label, #email-label, #number-label, #select-label{
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #select-label{
+    padding-bottom: 30px;
+  }
+  
+  
